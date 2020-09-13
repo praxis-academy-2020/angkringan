@@ -1,1 +1,1 @@
-# Aplikasi Angkringan (Frontend)
+# Aplikasi Angkringan (Frontend Praxis Indonesia)
