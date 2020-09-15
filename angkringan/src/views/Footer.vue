@@ -4,7 +4,7 @@
       <v-footer absolute class="font-weight-medium">
         <v-col class="text-center" cols="12">
           <v-icon>mdi-copyright</v-icon> {{ new Date().getFullYear() }} —
-          <strong>Angkringan 4.0</strong>
+          <strong>Angkringan 4.1</strong>
         </v-col>
       </v-footer>
     </v-card>
