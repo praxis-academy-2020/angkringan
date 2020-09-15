@@ -200,9 +200,14 @@ export default new Vuex.Store({
               }     
           ]
       }
-  ]
+     ]
+    },
+
+  getters:{
+    getData: function(state){
+      return this.state.products;
+    }
   },
-  getters:{},
   mutations: {},
   actions: {},
   modules: {}
