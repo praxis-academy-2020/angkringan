@@ -1,6 +1,7 @@
 <template>
     <div>
         <h2>{{ dataMakanan }}</h2>
+        <h1>ini maknaan</h1>
     </div>
 </template>
 <script>
@@ -13,10 +14,12 @@ export default {
     },
     methods: {
         
-    },
+        },
     computed: {
-        dataMakanan(){
-            return this.$store.state.products.makanan;
+        
+        dataMakanan: function() {
+            console.log(this.$store.getters.getData);
+            return this.$store.getters.getData;
         }
     },
 }

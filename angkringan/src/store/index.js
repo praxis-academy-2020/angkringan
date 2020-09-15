@@ -204,7 +204,7 @@ export default new Vuex.Store({
     },
 
   getters:{
-    getData: function(state){
+    getData: function(){
       return this.state.products;
     }
   },
