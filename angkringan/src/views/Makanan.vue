@@ -31,6 +31,13 @@
         </v-row>
       </v-container>
     </v-main>
+  <div>
+    <h1>saya makan</h1>
+    <div v-for="n in dataMakanan" :key="n.id">
+      <div v-for="a in n" :key="a.id">
+        {{ a.item }} || {{ a.harga }} || {{ a.deskripsi }}
+      </div>
+    </div>
   </div>
 </template>
 
@@ -40,6 +47,7 @@ export default {
   components: {},
   data() {
     return {
+       makananList: [],
       makanans: [
         {
           title: "Nasi Goreng",
@@ -68,6 +76,12 @@ export default {
       ],
     };
   },
+  methods: {},
+  computed: {
+    dataMakanan() {
+      return this.$store.getters.getData;
+    }
+  }
 };
 </script>
 
