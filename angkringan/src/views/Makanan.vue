@@ -1,5 +1,5 @@
 <template>
-
+<div>
   <div>
     <v-main>
       <v-container fluid>
@@ -31,6 +31,7 @@
         </v-row>
       </v-container>
     </v-main>
+  </div>
   <div>
     <h1>saya makan</h1>
     <div v-for="n in dataMakanan" :key="n.id">
@@ -39,6 +40,8 @@
       </div>
     </div>
   </div>
+  </div>
+  
 </template>
 
 <script>

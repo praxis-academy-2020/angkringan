@@ -1,20 +1,4 @@
 <template>
-<<<<<<< HEAD
-  <v-app class="grey lighten-4">
-    <Appbar />
-    <v-main>
-      <div class="Grd">
-        <div>
-          <router-view></router-view>
-        </div>
-        <div><p>asdasdada</p></div>
-      </div>
-      <!-- <v-container fluid>
-      </v-container>
-      <router-view></router-view> -->
-    </v-main>
-    <Footer />
-=======
   <v-app>
     <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
@@ -52,44 +36,21 @@
     <v-main>
       <router-view></router-view>
     </v-main>
->>>>>>> 9fc1fc0d4848343a88ea2f6bb4fa353ef6b156ac
   </v-app>
 </template>
 
 <script>
-<<<<<<< HEAD
-import Appbar from "./components/Appbar";
-import Footer from "./views/Footer";
-=======
 // import HelloWorld from "./components/HelloWorld";
->>>>>>> 9fc1fc0d4848343a88ea2f6bb4fa353ef6b156ac
 
 export default {
   name: "App",
 
   components: {
-<<<<<<< HEAD
-    Appbar,
-    Footer,
-=======
     // HelloWorld
->>>>>>> 9fc1fc0d4848343a88ea2f6bb4fa353ef6b156ac
   },
 
   data: () => ({
     //
-<<<<<<< HEAD
-  }),
-};
-</script>
-<style>
-.Grd {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-</style>
-=======
   })
 };
 </script>
->>>>>>> 9fc1fc0d4848343a88ea2f6bb4fa353ef6b156ac
