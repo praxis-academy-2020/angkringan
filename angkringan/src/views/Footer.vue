@@ -1,10 +1,11 @@
 <template>
   <div>
-    <v-card height="150">
+    <v-card height="100px">
       <v-footer absolute class="font-weight-medium">
         <v-col class="text-center" cols="12">
-          <v-icon>mdi-copyright</v-icon> {{ new Date().getFullYear() }} —
-          <strong>Angkringan 4.1</strong>
+          <v-icon>mdi-copyright</v-icon>
+          {{ new Date().getFullYear() }} —
+          <strong>Angkringan 4.0</strong>
         </v-col>
       </v-footer>
     </v-card>
